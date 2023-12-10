@@ -41,4 +41,6 @@
     <string name="tv_place_plant">Di dalam Ruangan</string>
     <string name="tv_water_plant">2 Sekali Sehari</string>
     <string name="tv_date_plant">Ditambahkan, 03 Desember 2023</string>
+    <string name="nama_tanaman">Nama Tanaman :</string>
+    <string name="tv_name_plant">Monstera alias Janda Bolong</string>
 </resources>
