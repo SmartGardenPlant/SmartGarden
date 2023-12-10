@@ -37,4 +37,8 @@
     <string name="Galeri">Galeri</string>
     <string name="Camera">Camera</string>
     <string name="Scan">Scan</string>
+    <string name="tv_plant_name">Plant Name</string>
+    <string name="tv_place_plant">Di dalam Ruangan</string>
+    <string name="tv_water_plant">2 Sekali Sehari</string>
+    <string name="tv_date_plant">Ditambahkan, 03 Desember 2023</string>
 </resources>
