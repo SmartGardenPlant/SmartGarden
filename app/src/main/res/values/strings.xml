@@ -37,4 +37,14 @@
     <string name="Galeri">Galeri</string>
     <string name="Camera">Camera</string>
     <string name="Scan">Scan</string>
+    <string name="tv_plant_name">Plant Name</string>
+    <string name="tv_place_plant">Di dalam Ruangan</string>
+    <string name="tv_water_plant">2 Sekali Sehari</string>
+    <string name="tv_date_plant">Ditambahkan, 03 Desember 2023</string>
+    <string name="nama_tanaman">Nama Tanaman :</string>
+    <string name="tv_name_plant">Monstera alias Janda Bolong</string>
+    <string name="tv_detail_name_plant">Merupakan jenis tanaman hias tropis yang sering digunakan sebagai hiasan interior rumah bergaya Skandinavia atau minimalis. \nKeunikan tanaman ini adalah memiliki daun mengilap lebar berwarna hijau pekat berpola seperti bentuk hati.</string>
+    <string name="saran_perawatan">Saran Perawatan</string>
+    <string name="tv_detail_saran">Tips perawatan yang dapat Anda ikuti: \n1. Pencahayaan: \n\t- Janda bolong menyukai sinar matahari yang terang, namun hindari paparan langsung sinar matahari yang terik, terutama sinar matahari tengah hari.\n\t- Tempatkan tanaman di tempat yang mendapatkan cahaya indirek atau sebagian teduh.</string>
+    <string name="scan_button">Scan Button</string>
 </resources>
