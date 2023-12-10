@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     android:layout_marginBottom="15dp"
-    android:layout_marginHorizontal="10dp"
+    android:layout_marginHorizontal="15dp"
     card_view:cardCornerRadius="30dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
