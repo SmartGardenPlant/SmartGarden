@@ -27,10 +27,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
-            android:background="@color/black"
+            android:layout_marginStart="0dp"
+            android:background="@android:color/transparent"
+            app:itemIconTint="@color/icon_color_nav"
             app:menu="@menu/bottom_nav_menu"
             app:itemTextAppearanceInactive="@style/TextAppearance.Material3.LabelSmall"
             app:itemTextAppearanceActiveBoldEnabled="false"
+            app:labelVisibilityMode="labeled"
             app:itemIconSize="30dp" />
     </com.google.android.material.bottomappbar.BottomAppBar>
 
@@ -43,10 +46,9 @@
         android:backgroundTint="?attr/colorPrimary"
         android:contentDescription="@string/scan_button"
         app:layout_anchor="@id/nav_view"
-        app:background="@color/black"
         app:srcCompat="@drawable/scan"
         app:fabCustomSize="60dp"
-        app:maxImageSize="30dp"
+        app:maxImageSize="35dp"
         style="@style/Widget.MaterialComponents.FloatingActionButton" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
