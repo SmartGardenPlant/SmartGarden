@@ -67,4 +67,9 @@ dependencies {
 
     implementation ("androidx.appcompat:appcompat:1.3.0-beta01")
     implementation ("androidx.cardview:cardview:1.0.0")
+
+    val camerax_version = "1.1.0-beta02"
+    implementation("androidx.camera:camera-camera2:$camerax_version")
+    implementation("androidx.camera:camera-lifecycle:$camerax_version")
+    implementation("androidx.camera:camera-view:$camerax_version")
 }
