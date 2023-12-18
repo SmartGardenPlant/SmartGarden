@@ -33,8 +33,9 @@
     <string name="myplant">MyPlant</string>
     <string name="MyPlant">MyPlant</string>
     <string name="Community">Comunity</string>
-    <string name="foto">Foto</string>
-    <string name="Galeri">Galeri</string>
-    <string name="Camera">Camera</string>
-    <string name="Scan">Scan</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Scan</string>
+    <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
 </resources>

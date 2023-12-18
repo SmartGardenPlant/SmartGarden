@@ -12,6 +12,10 @@
         android:title="@string/Community"/>
 
     <item
+        android:id="@+id/placeholder"
+        android:title=""/>
+
+    <item
         android:id="@+id/navigation_myplant"
         android:icon="@drawable/plant2"
         android:title="@string/MyPlant"/>
