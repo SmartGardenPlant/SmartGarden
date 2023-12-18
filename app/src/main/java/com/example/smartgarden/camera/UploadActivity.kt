@@ -6,14 +6,17 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
+import com.example.smartgarden.R
 import com.example.smartgarden.camera.CameraActivity.Companion.CAMERAX_RESULT
 import com.example.smartgarden.databinding.ActivityUploadBinding // Import the correct binding class
+import com.example.smartgarden.detail.DetailActivity
 
 class UploadActivity : AppCompatActivity() {
 
@@ -50,6 +53,14 @@ class UploadActivity : AppCompatActivity() {
         binding.galleryButton.setOnClickListener { startGallery() }
         binding.cameraXButton.setOnClickListener { startCameraX() }
         binding.uploadButton.setOnClickListener { uploadImage() }
+
+        // Mendapatkan referensi ke backButton
+        val backButton = findViewById<ImageView>(R.id.backButton)
+
+        // Menambahkan listener untuk backButton
+        backButton.setOnClickListener {
+            onBackPressed() // Memanggil fungsi onBackPressed untuk kembali ke activity sebelumnya
+        }
     }
     private fun startGallery() {
         launcherGallery.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
@@ -63,19 +74,6 @@ class UploadActivity : AppCompatActivity() {
             showImage()
         } else {
             Log.d("Photo Picker", "No media selected")
-        }
-    }
-
-    private fun startCamera() {
-        currentImageUri = getImageUri(this)
-        launcherIntentCamera.launch(currentImageUri)
-    }
-
-    private val launcherIntentCamera = registerForActivityResult(
-        ActivityResultContracts.TakePicture()
-    ) { isSuccess ->
-        if (isSuccess) {
-            showImage()
         }
     }
 
@@ -101,10 +99,19 @@ class UploadActivity : AppCompatActivity() {
     }
 
     private fun uploadImage() {
-        Toast.makeText(this, "Fitur ini belum tersedia", Toast.LENGTH_SHORT).show()
+        if (currentImageUri != null) {
+            // Jika ada gambar yang dipilih, pindah ke DetailActivity
+            val intent = Intent(this, DetailActivity::class.java)
+            intent.putExtra("imageUri", currentImageUri.toString()) // Mengirim URI gambar ke DetailActivity
+            startActivity(intent)
+        } else {
+            // Jika tidak ada gambar yang dipilih, tampilkan pesan kesalahan
+            Toast.makeText(this, "Pilih gambar terlebih dahulu", Toast.LENGTH_SHORT).show()
+        }
     }
 
-    companion object {
+
+        companion object {
         private const val REQUIRED_PERMISSION = Manifest.permission.CAMERA
     }
 }

@@ -33,9 +33,17 @@
     <string name="myplant">MyPlant</string>
     <string name="MyPlant">MyPlant</string>
     <string name="Community">Comunity</string>
-    <string name="camera_x">CameraX</string>
-    <string name="camera">Kamera</string>
+    <string name="camera_x">Camera</string>
+    <string name="camera">Camera</string>
     <string name="gallery">Galeri</string>
-    <string name="upload">Scan</string>
+    <string name="upload">Upload</string>
     <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="nama_tanaman">Nama Tanaman : Monstera alias janda bolong</string>
+    <string name="penjelasan">Merupakan jenis tanaman hias tropis yang sering digunakan sebagai hiasan interior rumah bergaya Skandinavia atau minimalis.
+Keunikan tanaman ini adalah memiliki daun mengilap lebar berwarna hijau pekat berpola seperti bentuk hati.</string>
+    <string name="saran_perawatan">Saran Perawatan</string>
+    <string name="tips_perawatan">Tips perawatan yang dapat Anda ikuti:
+Pencahayaan:
+Janda bolong menyukai sinar matahari yang terang, namun hindari paparan langsung sinar matahari yang terik, terutama sinar matahari tengah hari.
+Tempatkan tanaman di tempat yang mendapatkan cahaya indirek atau sebagian teduh.</string>
 </resources>

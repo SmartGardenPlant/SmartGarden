@@ -8,6 +8,7 @@ import android.view.OrientationEventListener
 import android.view.Surface
 import android.view.WindowInsets
 import android.view.WindowManager
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.CameraSelector
@@ -16,6 +17,7 @@ import androidx.camera.core.ImageCaptureException
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
+import com.example.smartgarden.R
 import com.example.smartgarden.databinding.ActivityCameraBinding
 
 class CameraActivity : AppCompatActivity() {
@@ -36,6 +38,13 @@ class CameraActivity : AppCompatActivity() {
             startCamera()
         }
         binding.captureImage.setOnClickListener { takePhoto() }
+        // Mendapatkan referensi ke backButton
+        val backButton = findViewById<ImageView>(R.id.backButton)
+
+        // Menambahkan listener untuk backButton
+        backButton.setOnClickListener {
+            onBackPressed() // Memanggil fungsi onBackPressed untuk kembali ke activity sebelumnya
+        }
     }
 
     public override fun onResume() {
