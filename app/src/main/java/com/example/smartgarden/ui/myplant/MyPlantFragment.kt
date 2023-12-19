@@ -1,4 +1,4 @@
-package com.example.smartgarden
+package com.example.smartgarden.ui.myplant
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
