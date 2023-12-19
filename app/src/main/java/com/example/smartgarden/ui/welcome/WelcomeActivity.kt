@@ -1,11 +1,12 @@
-package com.example.smartgarden
+package com.example.smartgarden.ui.welcome
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.smartgarden.R
 
-class DetailActivity : AppCompatActivity() {
+class WelcomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail)
+        setContentView(R.layout.activity_welcome)
     }
 }

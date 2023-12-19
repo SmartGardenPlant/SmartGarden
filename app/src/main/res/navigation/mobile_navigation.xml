@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.smartgarden.HomeFragment"
+        android:name="com.example.smartgarden.ui.home.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/communityFragment"
-        android:name="com.example.smartgarden.CommunityFragment"
+        android:name="com.example.smartgarden.ui.community.CommunityFragment"
         android:label="Community"
         tools:layout="@layout/fragment_community" />
     <fragment
         android:id="@+id/myplantFragment"
-        android:name="com.example.smartgarden.MyPlantFragment"
+        android:name="com.example.smartgarden.ui.myplant.MyPlantFragment"
         android:label="MyPlant"
         tools:layout="@layout/fragment_myplant" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.smartgarden.ProfileFragment"
+        android:name="com.example.smartgarden.ui.profile.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
 

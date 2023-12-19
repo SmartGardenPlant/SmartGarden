@@ -1,11 +1,12 @@
-package com.example.smartgarden
+package com.example.smartgarden.ui.upload
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.smartgarden.R
 
-class WelcomeActivity : AppCompatActivity() {
+class UploadActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome)
+        setContentView(R.layout.activity_upload)
     }
 }

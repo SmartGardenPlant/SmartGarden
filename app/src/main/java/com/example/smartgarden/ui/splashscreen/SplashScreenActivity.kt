@@ -1,10 +1,12 @@
-package com.example.smartgarden
+package com.example.smartgarden.ui.splashscreen
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.example.smartgarden.MainActivity
+import com.example.smartgarden.R
 
 @SuppressLint("CustomSplashScreen")
 @Suppress("DEPRECATION")
@@ -16,6 +18,6 @@ class SplashScreenActivity : AppCompatActivity() {
             val intent = Intent(this@SplashScreenActivity, MainActivity::class.java)
             startActivity(intent)
             finish()
-        }, 3000)
+        }, 2000)
     }
 }
