@@ -47,4 +47,37 @@
     <string name="saran_perawatan">Saran Perawatan</string>
     <string name="tv_detail_saran">Tips perawatan yang dapat Anda ikuti: \n1. Pencahayaan: \n\t- Janda bolong menyukai sinar matahari yang terang, namun hindari paparan langsung sinar matahari yang terik, terutama sinar matahari tengah hari.\n\t- Tempatkan tanaman di tempat yang mendapatkan cahaya indirek atau sebagian teduh.</string>
     <string name="scan_button">Scan Button</string>
+    <string name="tv_user">Bangkit</string>
+    <string name="tv_title">Bagaimana Cara Mengatasinya?</string>
+    <string name="tv_user_community">User</string>
+    <string name="tv_title_community">Bagaimana Cara Mengatasinya?</string>
+    <string name="tv_desc_community">Daun Mengering dan Kuning</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="save">Save</string>
+    <string name="add_button">Add Button</string>
+
+    <string-array name="data_title_community">
+        <item>Bagaimana Cara Mengatasinya?</item>
+        <item>Dimana saya bisa mendapatkan tanaman ini?</item>
+        <item>Rawat murah hasil mahal</item>
+        <item>Kenapa tanaman mangga saya susah berbuah?</item>
+        <item>Tanaman penghasil uang</item>
+    </string-array>
+
+    <string-array name="data_desc_community">
+        <item>Daun Mengering dan kuning</item>
+        <item>Saya ingin memiliki tanaman ini, karena di wilayah saya tidak terdapat tanaman tersebut.</item>
+        <item>Saya memiliki tanaman yang mudah untuk dirawat dan bisa menghasilkan uang dari merawat tanaman ini.</item>
+        <item>Tanaman mangga saya susah berbuah, saya tinggal di daerah Sulawesi Tenggara yang umumnya tanah subur.</item>
+        <item>Tanaman ini memiliki nilai yang mahal apabila dijual, karena banyak dikonsumsi orang.</item>
+    </string-array>
+
+    <integer-array name="data_photo_community">
+        <item>@drawable/daun_kuning</item>
+        <item>@drawable/kantong_semar</item>
+        <item>@drawable/bayam</item>
+        <item>@drawable/pohon_mangga</item>
+        <item>@drawable/daun_bawang</item>
+
+    </integer-array>
 </resources>

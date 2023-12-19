@@ -1,7 +1,8 @@
-package com.example.smartgarden
+package com.example.smartgarden.ui.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.smartgarden.R
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
