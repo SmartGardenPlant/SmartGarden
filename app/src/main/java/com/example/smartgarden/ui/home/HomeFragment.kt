@@ -1,4 +1,4 @@
-package com.example.smartgarden
+package com.example.smartgarden.ui.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -23,7 +23,4 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
     }
 
-//    override fun onClick(v: View) {
-//
-//    }
 }
