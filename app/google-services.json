@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "731866975618",
+    "project_id": "login-sigup-smartgarden",
+    "storage_bucket": "login-sigup-smartgarden.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731866975618:android:8c69c79894a5ed5709d39b",
+        "android_client_info": {
+          "package_name": "com.example.smartgarden"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP-B_ByJGMj5xNpvUzVgI26E-LFgVmEhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
