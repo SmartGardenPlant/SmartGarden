@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.smartgarden.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/communityFragment"
+        android:name="com.example.smartgarden.ui.community.CommunityFragment"
+        android:label="Community"
+        tools:layout="@layout/fragment_community" />
+    <fragment
+        android:id="@+id/myplantFragment"
+        android:name="com.example.smartgarden.ui.myplant.MyPlantFragment"
+        android:label="MyPlant"
+        tools:layout="@layout/fragment_myplant" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.smartgarden.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
